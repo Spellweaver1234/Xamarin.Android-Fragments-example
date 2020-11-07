@@ -61,9 +61,12 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fragment2.cs" />
-    <Compile Include="MainActivity.cs" />
-    <Compile Include="Fragment1.cs" />
+    <Compile Include="Source\Enums\FragmentsList.cs" />
+    <Compile Include="Source\Fragments\Fragment2.cs" />
+    <Compile Include="Source\Activities\MainActivity.cs" />
+    <Compile Include="Source\Fragments\Fragment1.cs" />
+    <Compile Include="Source\Fragments\Fragment3.cs" />
+    <Compile Include="Source\Managers\FragmentsManager.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -114,6 +117,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\layout2.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\layout3.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

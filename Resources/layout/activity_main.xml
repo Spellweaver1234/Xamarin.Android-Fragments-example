@@ -16,6 +16,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button2" />
+    <Button
+        android:text="f3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3" />
     <FrameLayout
         android:minWidth="25px"
         android:minHeight="25px"
